@@ -84,3 +84,27 @@ Body:
     "password":"akm12345"
 }
 ```
+
+
+# HTTP Error Codes
+
+HTTP error codes and their meanings:
+
+## 400 Bad Request
+- The request sent to the server is malformed or invalid. Check your request syntax and parameters.
+
+## 401 Unauthorized
+- The request requires authentication, and the provided credentials are either missing or invalid. Ensure you have the correct authentication tokens or credentials.
+
+## 403 Forbidden
+- The server has understood the request, but it refuses to fulfill it. This typically indicates that the user does not have permission to access the requested resource.
+
+## 404 Not Found
+- The requested resource could not be found on the server. Check the URL or resource path for errors.
+
+## 500 Internal Server Error
+- An unexpected error occurred on the server while processing the request. This is typically a server-side issue, and you should report it to the service provider.
+
+## 503 Service Unavailable
+- The server is temporarily unable to handle the request due to overload or maintenance. Retry the request later.
+
